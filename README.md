@@ -22,6 +22,6 @@
 -  64 Bit ARM: `GOOS=linux GOARCH=arm64 go build -o createremoteaccessjwt86 main.go`
 
 ### Run
-1. ./createremoteaccessjwt -region=<region> -tenantid=<tenantid>
+1. ./createremoteaccessjwt -region="region" -tenantid="tenantid"
 
 Note: The json file created when the service account was created needs to be in the folder you are running the application from.
